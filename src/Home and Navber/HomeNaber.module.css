@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    background-image: url(./image/freeimg_5545946042freejpg850.jpg);
+    height: 74vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(248, 247, 216, 0.7)
+  }
+  
+  .custom-shape-divider-bottom-1595523337 {
+    position: absolute;
+    bottom: 0;
+      left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1595523337 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+  }
+  
+  .custom-shape-divider-bottom-1595523337 .shape-fill {
+    fill: #ffffff;
+  }
+  
+  /** For mobile devices **/
+  @media (max-width: 767px) {
+    .custom-shape-divider-bottom-1595523337 svg {
+        width: calc(100% + 1.3px);
+        height: 30px;
+    }
+  }

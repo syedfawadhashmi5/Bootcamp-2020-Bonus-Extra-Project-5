@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.navber {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: white !important;
+  z-index: 100;
+  position: sticky;
+}
+.bg-bg {
+  background-color: rgba(255, 255, 255, 0) !important;
+
+}
+.nav-link {
+color: white !important;
+}
+.navbar-light .navbar-brand {
+  color: rgb(234 222 222 / 90%) !important;
+}
+.navber-brand {
+  font-size: 1.9 !important;
+  color: #fafafa;
+}
+
+.navber a {
+  font-size: 1.4;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #fa260a;
+}
+
+.navber a:hover {
+  color: #38da17db !important;
+}
+
+@media (max-width: 991px) {
+  .navber-brand {
+    font-size: 1.6rem !important;
+  }
+  
+}
+
+
+/* End navber section */
+
+.header {
+    position: relative;
+    background-image: url(./image/freeimg_5545946042freejpg850.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(94 44 175 / 70%);
+    color: #ffffff;
+  }
+
+  .headerCon {
+    display: flex;
+    align-items: center; 
+  }
+
+  .heanderImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header_text > h1,h2,h3 {
+    font-family: 'Dancing Script', cursive !important;
+  }
+  .custom-shape-divider-bottom-1595523337 {
+    position: absolute;
+    bottom: 0;
+      left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1595523337 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+  }
+  
+  .custom-shape-divider-bottom-1595523337 .shape-fill {
+    fill: #ffffff;
+  }
+  
+  /** For mobile devices **/
+  @media (max-width: 767px) {
+    .custom-shape-divider-bottom-1595523337 svg {
+        width: calc(100% + 1.3px);
+        height: 30px;
+    }
+  }
