@@ -4,7 +4,7 @@ import {Routes, Route} from 'react-router-dom';
 import Home from './Home and Navber/Home'
 import About from './Home and Navber/About'
 import NotFound from './Home and Navber/NotFound'
-
+import Contect from './Home and Navber/Contect'
 
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -18,8 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        {/* <Route path="Contect" element={<Contect />} />
-        <Route path="Services" element={<Services />} /> */}
+        <Route path="Contect" element={<Contect />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

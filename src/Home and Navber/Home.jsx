@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 import Navber from '../Navber';
-import Slide from 'react-reveal/Slide';
+import Typist from 'react-typist';
+import Homeservices from './Homeservices';
 
 
 
@@ -22,21 +23,25 @@ const Home = () => {
     return (
         <div>
             <div className="header">
-            <Navber />
+                <Navber />
                 <div className="container headerCon">
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <div className="row">
                                 <div className="col-md-6 col-sm-12 pt-6 pt-lg-0 d-flex justify-content-center  heanderImg" ref={container}>
                                 </div>
+
                                 <div className="col-md-6  heanderImg">
-                                <Slide left cascade>
-                                    <div header_text>
-                                    <h2>Hi are you Looking some ideas for your business</h2>
-                                    <h2>we are help you to Grow your online  business</h2>
-                                    <h3>with the help of web and app</h3>
-                                    </div>
-                                    </Slide>
+
+
+                                    <Typist><div header_text>
+                                        <Typist.Delay ms={400} />
+                                        <h2>Hi are you Looking some ideas for your business</h2>
+                                        <Typist.Delay ms={700} />
+                                        <br />
+                                        <h2>we are help you to Grow  your online  business</h2>
+                                        <h3>with the help of web and app</h3>
+                                    </div></Typist>
                                 </div>
                             </div>
                         </div>
@@ -48,6 +53,7 @@ const Home = () => {
                     </svg>
                 </div>
             </div>
+            <Homeservices />
         </div>
     )
 }

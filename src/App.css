@@ -7,7 +7,10 @@
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: normal;
+}
 .navber {
   background-color: rgba(255, 255, 255, 0) !important;
   color: white !important;
@@ -51,7 +54,7 @@ color: white !important;
 }
 
 
-/* End navber section */
+/*                            End navber section                               */
 
 .header {
     position: relative;
@@ -105,3 +108,126 @@ color: white !important;
         height: 30px;
     }
   }
+
+
+/*                            Section A                         */
+
+.Section_A {
+  position: relative;
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+  padding: 50px;
+}
+
+.text-box_1 > h1 {
+  font-family: inherit;
+  color: inherit;
+  font-size: 3em;
+
+  overflow: hidden;
+  text-align: center;
+}
+
+.text-box_1 >  h1:before,
+.text-box_1 >  h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.text-box_1 >  h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.text-box_1 > h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.text-box_2 {
+  margin-top: 35px;
+}
+
+
+/*                 Section_About                */
+
+.Section_About {
+  background-image: url(./image/freeimg_5545946042freejpg850.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(94 44 175 / 70%);
+  color: #ffffff;
+
+}
+
+.About_text-box {
+  position: relative;
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.About_text-box > h1 {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 3.em;
+}
+
+.About_text-box > p {
+  font-family: 'Dancing Script', cursive !important;
+
+}
+
+
+.Section_AboutTeam {
+  position: relative;
+  width: 100%;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.team-box-text > h1 {
+  font-family: inherit;
+  color: inherit;
+  font-size: 3em;
+
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.team-box-text >  h1:before,
+.team-box-text >  h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.team-box-text >  h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.team-box-text > h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.team-box-text {
+  margin-top: 35px;
+}
+
+
+.contect_box {
+  position: relative;
+  top: 90px;
+}

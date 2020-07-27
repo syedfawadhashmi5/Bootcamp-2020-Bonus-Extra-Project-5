@@ -11,7 +11,7 @@ const Navber = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light navber ">
               <div className="container">
-                <NavLink className="navbar-brand" to="#">Navbar</NavLink>
+                <NavLink className="navbar-brand" to="#">Soft Landing</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
@@ -23,9 +23,6 @@ const Navber = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink  activeClassName="menu_active" className="nav-link" to="/About">About</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink  activeClassName="menu_active" className="nav-link" to="/Services">Services</NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink  activeClassName="menu_active" className="nav-link" to="/Contect">Contect</NavLink>
